@@ -46,8 +46,11 @@ git clone https://github.com/sakshipawar29/ciphersqlstudio.git
 -Create `.env`:- 
 
 PORT=5000
+
 MONGO_URI=your_mongo_uri
+
 POSTGRES_URI=postgres://postgres:password@localhost:5432/ciphersql
+
 OPENAI_API_KEY=your_api_key
 
 -Run backend:
