@@ -16,9 +16,7 @@ Backend:
 Database:
 - PostgreSQL (query execution sandbox)
 - MongoDB Atlas (assignment storage)
-
-LLM:
-- OpenAI API for hint generation
+-LLM: OpenAI API for hint generation
 
 ---
 
@@ -46,6 +44,7 @@ git clone https://github.com/sakshipawar29/ciphersqlstudio.git
 -npm install
 
 -Create `.env`:- 
+
 PORT=5000
 MONGO_URI=your_mongo_uri
 POSTGRES_URI=postgres://postgres:password@localhost:5432/ciphersql
